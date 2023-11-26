@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Nav -->
+      <div class="nav container">
+        <!-- Menu Icon -->
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <!-- Logo -->
+        <a href="index.html" class="logo">Eco exchange</a>
+      
+        <!-- Cart-Icon -->
+        <a href="cart.html">
+          <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Login -->
+    <section class="login-container container">
+      <a href="index.html" class="back-homepage">
+        <i class="bx bx-chevron-left"></i>
+        <span>Back To Home</span>
+      </a>
+      <h2 class="login-s-title">Login</h2>
+      <form id="loginForm" class="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit" class="login-btn">Login</button>
+      </form>
+      <p class="register-link">Don't have an account? <a href="signup.html">Sign up here</a>.</p>
+    </section>
+    <!-- Link To JS -->
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
