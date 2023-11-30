@@ -11,6 +11,30 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <style>
+      body{
+        background-image: url("images/home2.png");
+        height: 100%;
+        width: max-content;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      
+      }
+
+      body,html{
+        height: 100%;
+      }
+
+      h1{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+      }
+
+    </style>
+
   </head>
   <body>
     <!-- Header -->
@@ -29,6 +53,7 @@
       </div>
     </header>
     <!-- Login -->
+    <!--
     <section class="login-container container">
       <a href="index.html" class="back-homepage">
         <i class="bx bx-chevron-left"></i>
@@ -46,6 +71,26 @@
       </form>
       <p class="register-link">Don't have an account? <a href="signup.html">Sign up here</a>.</p>
     </section>
+  -->
+    <div class="loginbox">
+      <h1>Login Here</h1>
+      <form>
+        <p>Username</p>
+        <input type="text" name="" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" name="" placeholder="Enter Password">
+      
+        <input type="submit" name="" value="login">
+        <a href="#">Lost your password?</a>
+        <a href="#">Don't have an account</a>
+        <a href="index.html" class="back-homepage">
+          <i class="bx bx-chevron-left"></i>
+          <span>Back To Home</span>
+        </a>
+
+      </form>
+
+    </div>
     <!-- Link To JS -->
     <script src="js/main.js"></script>
     <script src="js/login.js"></script>
